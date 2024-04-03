@@ -4,11 +4,14 @@ function swapsCase(string){
         char.toUpperCase()?
         char.toLowerCase():
         char.toUpperCase();
-    
+
+
+    //join the splits together
     }).join('');
 }
-
-
+swapsCase("The Quick Brown Fox")
+// exaple usage
+console.log(swapsCase("The Quick Brown Fox"))
 
 
 

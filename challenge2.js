@@ -3,5 +3,7 @@ function createArray(beginning,end){
     for (let i = beginning ; i <= end; i++){ result.push(i)};
     return result;
 }
-
-console.log(createArray(1,4));
+// create array one
+console.log(createArray(-4,7));
+// create array two
+console.log(createArray(4,7))
